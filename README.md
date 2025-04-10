@@ -34,6 +34,8 @@ pip install -r requirements.txt
 streamlit run app.py
 
 ```
+---
+
 📊 Demo
 
 👉 Try the app live on Hugging Face Spaces
@@ -54,6 +56,8 @@ IntentDetectAI/
 └── README.md                  # Project description
 
 ```
+
+---
 💡 How It Works
 
    - User inputs a query (text with or without emojis).
@@ -64,7 +68,6 @@ IntentDetectAI/
 ---
 
 📚 Learnings
-
 
  This project demonstrates:
 
@@ -83,7 +86,7 @@ IntentDetectAI/
 
   Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-
+---
 📄 License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
