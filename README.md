@@ -1,8 +1,9 @@
-🧠 IntentDetectAI
+**🧠 IntentDetectAI **
 <br>
 IntentDetectAI is a multilingual intent classification system that leverages a fine-tuned BERT model to classify user queries into predefined intents. It supports multiple languages and includes emoji sentiment detection for enhanced conversational AI understanding.
 
 🔍 Features
+<br>
 🌍 Multilingual intent classification using a fine-tuned BERT model
 
 😊 Emoji detection and sentiment visualization
@@ -14,31 +15,28 @@ IntentDetectAI is a multilingual intent classification system that leverages a f
 🚀 Deployed on Hugging Face Spaces
 
 🧰 Tech Stack
-Python
+  - Python
+  - Transformers (Hugging Face)
+  - PyTorch
+  - Streamlit
+  - Hugging Face Datasets
+  - Hugging Face Spaces (for deployment)
 
-Transformers (Hugging Face)
-
-PyTorch
-
-Streamlit
-
-Hugging Face Datasets
-
-Hugging Face Spaces (for deployment)
 
 📦 Installation
-bash
-Copy code
-git clone https://github.com/your-username/IntentDetectAI.git
-cd IntentDetectAI
-pip install -r requirements.txt
-streamlit run app.py
+
+     git clone https://github.com/your-username/IntentDetectAI.git
+     cd IntentDetectAI
+     pip install -r requirements.txt
+     streamlit run app.py
+
+
 📊 Demo
 👉 Try the app live on Hugging Face Spaces
 
+
 📁 Project Structure
-bash
-Copy code
+
 IntentDetectAI/
 ├── app.py                 # Streamlit application
 ├── model/                 # Fine-tuned model files
@@ -46,6 +44,9 @@ IntentDetectAI/
 ├── train_intent_model.ipynb # Model training notebook
 ├── requirements.txt       # Required libraries
 └── README.md              # Project description
+
+
+
 💡 How It Works
 User inputs a query (text with or without emojis).
 
