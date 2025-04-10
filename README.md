@@ -1,4 +1,5 @@
 🧠 IntentDetectAI
+<br>
 IntentDetectAI is a multilingual intent classification system that leverages a fine-tuned BERT model to classify user queries into predefined intents. It supports multiple languages and includes emoji sentiment detection for enhanced conversational AI understanding.
 
 🔍 Features
